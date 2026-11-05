@@ -1,0 +1,7 @@
+apiVersion: apps.podset.com/v1
+kind: PodSet
+metadata:
+   name: my-podset
+spec:
+  replicas: 3
+  image: nginx:latest

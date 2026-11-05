@@ -1,0 +1,9 @@
+apiVersion: apps.podset.com/v1
+kind: PodSet
+metadata:
+  labels:
+    app.kubernetes.io/name: podset-operator
+    app.kubernetes.io/managed-by: kustomize
+  name: podset-sample
+spec:
+  # TODO(user): Add fields here
